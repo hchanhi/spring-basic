@@ -9,7 +9,7 @@ public class MemberServiceTest {
     @Test
     void join(){
         // 테스트 코드는 필수!!
-        
+
         //given
         Member member = new Member(1L, "memberA", Grade.VIP);
 
