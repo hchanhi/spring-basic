@@ -36,6 +36,7 @@ public class ApplicationContextBasicFindTest {
     void findBeanByType(){
         MemberService memberService = ac.getBean(MemberService.class);
         assertThat(memberService).isInstanceOf(MemberServiceImpl.class);
+        // 구체 타입으로 조회하면 유연성이 떨어짐 (비추)
 
     }
     @Test
